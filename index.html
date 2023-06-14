@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/mail.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img class="criptografia"
+        src="./src/img/encryption.png"
+        alt="ícone de criptografia">
+        <h1 class="tituloPrincipal">Decodificador</h1>
+    </header>
+    <main>
+
+        <section>
+            <textarea class="text-area" placeholder="Digite seu texto" rows="30" cols="70"></textarea>
+            <h6 id="aviso">*Apenas letras minúsculas e sem acento</h6>
+            <div class="botoes">
+                <button class="btnCesar">Cifra de César</button>
+                <button class="btnCriptografar">Criptografar</button>
+                <button class="btnDescriptografar">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="textArea">
+            <textarea class= "text-area mensagem" rows="30" cols="70"></textarea>
+            <button class="btnCopiar">Copiar</button>
+            </div>
+            <div class="texto">
+            <h2 id="noMessage">Nenhuma mensagem encontrada</h2>
+            <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>
+        </section>
+
+    </main>
+    
+        <footer class="rodape">
+        <ul class="creditosIcons">
+        <li><a href="https://www.flaticon.com/free-icons/encrypt" title="encrypt icons">
+        Encrypt icons created by Amazona Adorada -
+        Flaticon</a></li>
+        <li><a href="https://www.flaticon.com/free-icons/encryption" title="encryption icons">Encryption icons created by monkik -
+        Flaticon</a></li>
+        </ul>
+        <p id="curso">Alura Challenge - Oracle Next Education</p>
+        <p id="creditos">Desenvolvido por Natalia Dias</p>
+        </footer>
+</body>
+</html>
