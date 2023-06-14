@@ -23,20 +23,19 @@
             <textarea class="text-area" placeholder="Digite seu texto" rows="30" cols="70"></textarea>
             <h6 id="aviso">*Apenas letras minúsculas e sem acento</h6>
             <div class="botoes">
-                <button class="btnCesar">Cifra de César</button>
-                <button class="btnCriptografar">Criptografar</button>
-                <button class="btnDescriptografar">Descriptografar</button>
+                <button class="btnCriptografar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btnDescriptografar" onclick="btnDesencriptar()">Descriptografar</button>
             </div>
         </section>
 
         <section>
             <div class="textArea">
             <textarea class= "text-area mensagem" rows="30" cols="70"></textarea>
-            <button class="btnCopiar">Copiar</button>
+            <button class="btnCopiar" onclick="copiar()">Copiar</button>
             </div>
             <div class="texto">
             <h2 id="noMessage">Nenhuma mensagem encontrada</h2>
-            <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+            <p id="texto2">Digite um texto que você deseja criptografar ou descriptografar</p>
             </div>
         </section>
 
@@ -53,5 +52,6 @@
         <p id="curso">Alura Challenge - Oracle Next Education</p>
         <p id="creditos">Desenvolvido por Natalia Dias</p>
         </footer>
+        <script src="script.js"></script>
 </body>
 </html>
